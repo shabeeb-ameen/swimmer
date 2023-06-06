@@ -40,6 +40,8 @@ class Run:
         self.edges_=None
 
     def run(self):
+        if not os.path.isdir(self.run_directory_):
+            os.mkdir(self.run_directory_)
         self.load_conf()
         self.load_initialization()
 
