@@ -1,0 +1,4 @@
+dt                  0.001
+t_f                 10
+t_out               100   
+damping             2
