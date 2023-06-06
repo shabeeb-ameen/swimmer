@@ -1,0 +1,11 @@
+Nodes:  Coordinates     Dynamics    Velocities      Damping
+
+0       0   0           Dynamic       0   0           0   0
+1       1.5 0           Dynamic       0   0           0   0
+2       1   1           Dynamic       0   0           0   0
+
+Edges:  Nodes           L0          Stiffness
+
+0       0   1           1.0         1.0
+1       0   2           1.0         1.0
+2       1   2           1.0         1.0        
